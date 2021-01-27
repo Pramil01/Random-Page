@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+}
+.container{
+    background-image: linear-gradient(30deg,rgba(255, 0, 255, 0.892),rgba(137, 43, 226, 0.892));
+    width:100%;
+    z-index: -9;
+}
+.zaxis{
+    color:cyan;
+    font-family: cursive;
+    font-style: oblique;
+    width:100%;
+}
+#particles-js{
+    position: absolute;
+    height: 1200px;
+}
+h1{
+    padding: 20px;
+    color:cyan;
+    text-align: center;
+    text-decoration: underline;
+}
+.right{
+    display: grid;
+    padding: 10px;
+    float: right;
+    width:50%;
+    border-left:1px solid rgb(255, 10, 10) ;
+}
+.right .one,.right .two,.right .three,.right .four{
+    margin: 30px;
+    width:33%;
+    height:60px;
+    border: 3px solid lightcyan;
+    border-radius: 7px;
+    color:navy;
+    font-size: larger;
+}
+.right .five{
+    margin: 30px;
+}
+.right .one{
+    transition: 0.5s;
+    background-color: fuchsia;
+}
+.right .two{
+    transition: 0.5s;
+    background-color: lime;
+}
+.right .three{
+    transition: 0.5s;
+    background-color: palegoldenrod;
+}
+.right .four{
+    transition: 0.5s;
+    background-color: rosybrown;
+}
+.right .one:hover{
+   cursor: pointer;
+   transition: 0.5s;
+   transform: scale(1.3);
+}
+.right .two:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translate(20px);
+}
+.right .three:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: skew(30deg);
+}
+.right .four:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: rotate(45deg);
+ }
+ .left{
+     display: grid;
+     float: left;
+     width: 45%;
+     justify-content: center;
+     text-align: center;
+ }
+ .left .one{
+     color: black;
+     margin: 10px;
+     padding :10px;
+     padding-top: 20px;
+     background-color: gold;
+     height: 60px;
+     width:100%;
+     border:3px solid #ffffff;
+     border-radius: 4px;
+ }
+ .left .two,.left .three{
+     background-color: #ffffff;
+     overflow: hidden;
+     padding:21px;
+     margin: 30px;
+     width:25%;
+     height:80px;
+     border:3px solid honeydew ;
+     border-radius:5px ;
+ }
+ .reveal,.start{
+     color: #ffffff;
+    background-color: rgb(255, 0, 0);
+    height: 100%;
+    width:100%;
+    border:3px solid #ff0202c2;
+    border-radius: 400px;
+ }
+ .reveal:hover,.start:hover{
+    background-color: springgreen;
+    cursor: pointer;
+    color: black;
+    animation: pulse 0.85s linear infinite;
+}
+ @keyframes pulse{
+     0%{
+         box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.555), 0 0 0 0 rgba(255, 0, 0, 0.555);
+     }
+     40%{
+        box-shadow: 0 0 0 20px rgb(238, 86, 86), 0 0 0 0 red;
+     }
+     80%{
+        box-shadow: 0 0 0 20px red, 0 0 0 10px red;
+     }
+     100%{
+        box-shadow: 0 0 0 0px rgb(238, 86, 86), 0 0 0 10px red;
+     }
+ }
+ .left .four{
+     height: 280px;
+     width:100%;
+     border:3px solid white;
+     border-radius: 5px;
+     margin:30px ;
+ }
+ .left .four .IWGP{
+     height:100%;
+     width:100%;
+     background-color: aquamarine;
+ }
+ .left .five{
+     margin: 30px;
+ }
+ .left .five .song{
+    background-color: blanchedalmond;
+    color:black;
+    border:2px solid honeydew;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+ 
+ 
